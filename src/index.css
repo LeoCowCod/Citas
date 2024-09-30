@@ -1,0 +1,90 @@
+/* Contenedor general del formulario */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Etiquetas de los campos */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2a475e;
+}
+
+/* Inputs de texto y selectores */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Botón del formulario */
+button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  background-color: #2a475e;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para el botón */
+button[type="submit"]:hover {
+  background-color: #1b2838;
+}
+
+/* Mensaje de error */
+.alerta-error {
+  background-color: #ffdddd;
+  color: #ff0000;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+/* Estilo del contenedor de citas */
+.citas-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+/* Espaciado en los párrafos dentro de las citas */
+.cita p {
+  margin-bottom: 0.8rem;
+}
+
+/* Botón de eliminar cita */
+.button.eliminar {
+  background-color: #ff0202;
+  color: white;
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.eliminar:hover {
+  background-color: #c50202;
+}
